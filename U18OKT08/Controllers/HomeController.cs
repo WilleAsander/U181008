@@ -14,7 +14,12 @@ namespace U18OKT08.Controllers
             return View();
         }
 
-        public ViewResult About()
+        public ActionResult About()
+        {
+            return View();
+        }
+
+        public ActionResult ContactUs()
         {
             return View();
         }
